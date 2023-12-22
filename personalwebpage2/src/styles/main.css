@@ -2,27 +2,47 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: VilaneExtraLight;
-    /* background-color: var(--main-blue); */
+    font-family: proximanova-light;
+    background-color: var(--main-blue);
+    color: var(--main-white);
 }
 
 :root{
     --main-yellow : #16f0bd;
-    --main-white : #F7EDE2;
+    --main-white : #fff7f7;
     --main-dark : #00fac0;
-    --main-blue : #7598a7;
-    --main-pink : #64ffda;
+    --main-blue : #6fa0b7;
+    --main-pink : #91eae3;
     --main-skills : #61858f;
 }
 
 
 @font-face {
-    font-family: VilaneExtraLight;
-    src: url('../fonts/VilaneExtraLight.woff') format('woff'), /* Modern Browsers */
-         url('../fonts/VilaneRegular.woff2') format('woff2'),
-         url('../fonts/VilaneExtraLight.ttf')  format('truetype'); /* Safari, Android, iOS */
+    font-family: proximanova-light;
+    src: url('../fonts/Fontspring-DEMO-proximanova-light.otf') format('opentype'), /* Modern Browsers */
 }
 
-.homeContainer {
-    background-color: var(--main-blue);
+@font-face {
+    font-family: proximanova-medium;
+    src: url('../fonts/Fontspring-DEMO-proximanova-medium.otf') format('opentype'), /* Modern Browsers */
+}
+
+@font-face {
+    font-family: proximanova-cond;
+    src: url('../fonts/Fontspring-DEMO-proximanovacond-light.otf') format('opentype'), /* Modern Browsers */
+}
+
+h1 {
+    font-size: 5rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+h3 {
+    font-size: 3rem;
+    font-family: proximanova-cond;
+}
+h4 {
+    font-size: 3rem;
 }

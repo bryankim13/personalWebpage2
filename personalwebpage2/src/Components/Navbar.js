@@ -1,5 +1,6 @@
 import {useRef} from "react";
 import {FaTimes, FaBars} from "react-icons/fa"
+import { Reveal } from "./Reveal";
 export default function Navbar() {
     const navRef = useRef();
 

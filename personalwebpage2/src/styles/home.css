@@ -1,0 +1,39 @@
+.homeContainer {
+    background-color: var(--main-blue);
+    display: flex;
+    justify-content: center;
+    min-height:90vh;
+    width:100vw;
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    
+}
+
+.introName {
+    font-family: proximanova-medium;
+}
+
+.homeText {
+    padding-left: 30%;
+    padding-right: 30%;
+    padding-bottom:10%;
+}
+
+.titleHeading {
+    display:flex;
+    justify-content:center;
+    align-items:baseline;
+    gap: 1rem;
+}
+
+@media only screen and (max-width: 900px){
+    .homeText {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+
+    .ScrollWord {
+        font-size: 2rem;
+    }
+}

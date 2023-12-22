@@ -7,6 +7,10 @@
     color: var(--main-white);
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 :root{
     --main-yellow : #16f0bd;
     --main-white : #fff7f7;

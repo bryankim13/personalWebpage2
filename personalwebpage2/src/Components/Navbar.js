@@ -6,22 +6,28 @@ export default function Navbar() {
     const showNavbar = () => {
         navRef.current.classList.toggle("responsive_nav");
     }
+    const closeNavWhenResponsive = () => {
+        console.log(navRef.current.classList['value'])
+        if (navRef.current.classList['value'] === "nav responsive_nav") {
+            navRef.current.classList.toggle("responsive_nav");
+        }
+    }
 
     return <header>
         <h2><a href="/" className="site-title">Bryan Kim</a></h2>
         <nav className="nav" ref={navRef}>
             <ul>
                 <li>
-                    <a href="/about">About</a>
+                    <a href="#about" onClick={closeNavWhenResponsive}>About</a>
                 </li>
                 <li>
-                    <a href="/experience">Experience</a>
+                    <a href="/experience" onClick={closeNavWhenResponsive}>Experience</a>
                 </li>
                 <li>
-                    <a href="/projects">Projects</a>
+                    <a href="/projects" onClick={closeNavWhenResponsive}>Projects</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact Me</a>
+                    <a href="/contact" onClick={closeNavWhenResponsive}>Contact Me</a>
                 </li>
             </ul>
             <button className="nav-btn nav-close-btn" onClick={showNavbar}>

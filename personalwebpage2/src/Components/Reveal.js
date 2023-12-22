@@ -12,7 +12,7 @@ export const Reveal = ({children}) => {
             mainControls.start("visible");
             slideControls.start("visible");
         }
-    }, [inView]);
+    }, [inView, mainControls, slideControls]);
 
     const heroVariants = {
         hidden: {
@@ -56,7 +56,7 @@ export const Reveal = ({children}) => {
                     left: 0,
                     right: 0,
                     background: "var(--main-pink)",
-                    zIndex:1,
+                    zIndex:2,
                 }}
             />
         </div>

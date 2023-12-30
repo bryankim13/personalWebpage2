@@ -2,7 +2,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: proximanova-light;
+    font-family: roboto-flex;
+    font-weight: 100;
     background-color: var(--main-blue);
     color: var(--main-white);
 }
@@ -36,17 +37,30 @@ html {
     src: url('../fonts/Fontspring-DEMO-proximanovacond-light.otf') format('opentype'), /* Modern Browsers */
 }
 
+@font-face {
+    font-family: roboto-flex;
+    src: url('../fonts/RobotoFlex-Regular.ttf') format('truetype'), /* Modern Browsers */
+}
+
+
 h1 {
-    font-size: 5rem;
+    font-size: 8vw;
 }
 
 h2 {
-    font-size: 2rem;
+    font-size: 3vw;
 }
 h3 {
-    font-size: 3rem;
-    font-family: proximanova-cond;
+    font-size: 3vw;
+    font-family: roboto-flex;
 }
 h4 {
-    font-size: 3rem;
+    font-size: 2vw;
+}
+p {
+    font-size: 1.2vw;
+}
+em {
+    color: var(--main-dark);
+    font-weight:10px;
 }

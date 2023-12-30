@@ -29,7 +29,7 @@ export default function Navbar() {
             opacity: 0,
           },
           animate: {
-            y: 0,
+            y: 15,
             opacity: 1,
             transition: {
               type: "spring",
@@ -104,6 +104,10 @@ export default function Navbar() {
         <>
          <FixedNav navRef={navRef} showNavbar={showNavbar}/>
         <AnimatePresence>
+            {/* {console.log(isScrolling)}
+            {console.log(window.innerWidth)}
+            {console.log('scrolly ' + window.scrollY)}
+            {console.log('window height ' + window.innerHeight)} */}
             {isScrolling && <ScrollingNav isScrolling={isScrolling}/>}
         </AnimatePresence>
         </>

@@ -35,7 +35,7 @@ export const Reveal = ({children}) => {
     }
 
     return (
-        <div ref={ref} className="motionDiv" style={{ position:"relative", overflow:"hidden", width: "fit-content" }}>
+        <div ref={ref} className="motionDiv" style={{ position:"relative", overflow:"hidden", width: "100%"}}>
             <motion.div
                 initial="hidden"
                 animate={mainControls}

@@ -35,7 +35,7 @@ export const Reveal = ({children}) => {
     }
 
     return (
-        <div ref={ref} className="motionDiv" style={{ position:"relative", overflow:"hidden", width: "100%"}}>
+        <div ref={ref} className="motionDiv" style={{ position:"relative", overflow:"hidden", width: "100%", backgroundColor:'transparent'}}>
             <motion.div
                 initial="hidden"
                 animate={mainControls}
@@ -55,7 +55,8 @@ export const Reveal = ({children}) => {
                     bottom: 4,
                     left: 0,
                     right: 0,
-                    background: "var(--main-pink)",
+                    borderRadius:'2rem',
+                    background: "var(--main-light-blue)",
                     zIndex:2,
                 }}
             />

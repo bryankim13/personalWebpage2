@@ -7,6 +7,7 @@
     padding-left: 10%;
     padding-right: 10%;
     justify-content: center;
+    background-color: var(--main-blue);
 }
 
 .aboutMessage {
@@ -49,15 +50,16 @@
     background: var(--main-blue);
     border-radius: 3rem;
     border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: var(--main-white);
+    border-color: var(--main-dark-blue);
     text-align: center;
+    height:100%;
 }
 
 .aboutIcon {
     padding:1rem;
-    font-size: 3vw;
+    font-size: 2rem;
 }
 
-.aboutSection h2 {
+.aboutSection h1 {
     text-align: center;
 }

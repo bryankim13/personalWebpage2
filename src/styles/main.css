@@ -4,8 +4,8 @@
     padding: 0;
     font-family: roboto-flex;
     font-weight: 100;
+    color: var(--main-dark-blue);
     background-color: var(--main-blue);
-    color: var(--main-white);
 }
 
 html {
@@ -13,12 +13,14 @@ html {
 }
 
 :root{
-    --main-yellow : #16f0bd;
-    --main-white : #fff7f7;
-    --main-dark : #00fac0;
-    --main-blue : #6fa0b7;
-    --main-pink : #91eae3;
-    --main-skills : #61858f;
+    --main-baby-blue: #e5f8f8;
+    --main-dark-blue: #5c92a6;
+    --main-blue-accent: #a8cad6;
+    --main-blue: #d6dfe8;
+    --main-light-blue: #cbf2f5;
+    --main-green: #eef6f2;
+    --main-dark-green: #8bcfd3;
+    --main-purple:#c288e9;
 }
 
 
@@ -44,21 +46,22 @@ html {
 
 
 h1 {
-    font-size: 8vw;
+    font-size: 5rem;
+    color: var(--main-dark-green);
 }
 
 h2 {
-    font-size: 3vw;
+    font-size: 5rem;
 }
 h3 {
-    font-size: 3vw;
+    font-size: 3rem;
     font-family: roboto-flex;
 }
 h4 {
-    font-size: 2vw;
+    font-size: 3rem;
 }
 p {
-    font-size: 1.2vw;
+    font-size: 1.2rem;
 }
 em {
     color: var(--main-dark);

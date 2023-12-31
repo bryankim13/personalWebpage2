@@ -53,10 +53,10 @@ export default function Navbar() {
                                 <a href="#about" onClick={props.showNavbar}>About</a>
                             </li>
                             <li>
-                                <a href="/experience" onClick={props.showNavbar}>Experience</a>
+                                <a href="#skills" onClick={props.showNavbar}>Skills</a>
                             </li>
                             <li>
-                                <a href="/projects" onClick={props.showNavbar}>Projects</a>
+                                <a href="#projects" onClick={props.showNavbar}>Projects</a>
                             </li>
                             <li>
                                 <a href="/contact" onClick={props.showNavbar}>Contact Me</a>
@@ -87,10 +87,10 @@ export default function Navbar() {
                     <a href="#about">About</a>
                 </li>
                 <li>
-                    <a href="/experience" >Experience</a>
+                    <a href="#skills">Skills</a>
                 </li>
                 <li>
-                    <a href="/projects">Projects</a>
+                    <a href="#projects">Projects</a>
                 </li>
                 <li>
                     <a href="/contact">Contact Me</a>
@@ -104,10 +104,6 @@ export default function Navbar() {
         <>
          <FixedNav navRef={navRef} showNavbar={showNavbar}/>
         <AnimatePresence>
-            {/* {console.log(isScrolling)}
-            {console.log(window.innerWidth)}
-            {console.log('scrolly ' + window.scrollY)}
-            {console.log('window height ' + window.innerHeight)} */}
             {isScrolling && <ScrollingNav isScrolling={isScrolling}/>}
         </AnimatePresence>
         </>

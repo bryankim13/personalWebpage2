@@ -7,9 +7,9 @@ export default function About() {
   return (
     <div id='about' className='aboutSection'>
         <Reveal>
-            <h2>
+            <h1>
                 About Me
-            </h2>
+            </h1>
         </Reveal>
         <div className='aboutContainer'>
             <Reveal>

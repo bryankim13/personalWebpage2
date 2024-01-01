@@ -15,12 +15,12 @@
 }
 
 .imageDiv {
-    width: 100%;
+    min-width: 300px;
 }
 
 .aboutImage {
     max-width:100%;
-    border-radius: 20rem;
+    border-radius: 5rem;
 }
 
 .aboutContainer {
@@ -28,7 +28,6 @@
     margin-bottom: 2rem;
     margin-top: 2rem;
     display:flex;
-
 }
 
 .aboutDetails {
@@ -40,11 +39,13 @@
 .aboutDetailContainers {
     justify-content: center;
     display: flex;
-    gap: 5%;
     padding-bottom:5%;
+    gap:10px;
 }
 
 .aboutDetailContainer {
+    height:260px;
+    width:360px;
     padding: 1.5rem;
     flex: 1;
     background: var(--main-blue);
@@ -52,7 +53,6 @@
     border: rgb(53, 53, 53) 0.1rem solid;
     border-color: var(--main-dark-blue);
     text-align: center;
-    height:100%;
 }
 
 .aboutIcon {

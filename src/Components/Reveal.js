@@ -1,7 +1,7 @@
 import React, {useEffect, useRef} from 'react'
 import {motion, useAnimation, useInView} from 'framer-motion'
 
-export const Reveal = ({children}) => {
+export const Reveal = ({children, overflowVal = 'hidden'}) => {
     const ref = useRef(null)
     const inView = useInView(ref, { once: true })
     const mainControls = useAnimation();
@@ -35,12 +35,13 @@ export const Reveal = ({children}) => {
     }
 
     return (
-        <div ref={ref} className="motionDiv" style={{ position:"relative", overflow:"hidden", width: "100%", backgroundColor:'transparent'}}>
+        <div ref={ref} className="motionDiv" style={{ position:"relative", overflow:overflowVal, width: "100%", backgroundColor:'transparent', borderRadius: '2rem'}}>
             <motion.div
                 initial="hidden"
                 animate={mainControls}
                 variants={heroVariants}
                 transition={{ duration: 0.5, delay: 0.35 }}
+                style={{ backgroundColor:'transparent' }}
             >
                 {children}
             </motion.div>

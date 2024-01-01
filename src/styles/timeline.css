@@ -68,7 +68,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width:100%;
-    background-color: var(--main-green);
+    background-color: transparent;
 }
 
 .eachElementTech {
@@ -79,6 +79,8 @@
     font-size: 1rem;
     border-radius: 1rem;
     margin-left:1%;
+    border: rgb(53, 53, 53) 0.1rem solid;
+    border-color: var(--main-blue-accent);
 }
 
 .verticalLine {
@@ -93,8 +95,6 @@
     margin-top: 3rem;
     width: 300px;
     height:300px;
-    border-radius: 3rem;
-    background-color: var(--main-blue-accent);
     justify-content: center;
 }
 

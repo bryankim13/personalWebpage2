@@ -14,7 +14,7 @@ export default function Timeline() {
   return (
     <div className='timelineContainer'>
       <h1>My Timeline So Far...</h1>
-      {timelineElements.toReversed().map(element => {
+      {timelineElements.map(element => {
         return <div key={element.id} className='timelineElem'>
           
             <div className='largeScreenIcon'>

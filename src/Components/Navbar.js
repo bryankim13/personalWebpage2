@@ -53,9 +53,6 @@ export default function Navbar() {
                                 <a href="#about" onClick={props.showNavbar}>About</a>
                             </li>
                             <li>
-                                <a href="#skills" onClick={props.showNavbar}>Skills</a>
-                            </li>
-                            <li>
                                 <a href="#projects" onClick={props.showNavbar}>Projects</a>
                             </li>
                             <li>
@@ -85,9 +82,6 @@ export default function Navbar() {
             <ul>
                 <li>
                     <a href="#about">About</a>
-                </li>
-                <li>
-                    <a href="#skills">Skills</a>
                 </li>
                 <li>
                     <a href="#projects">Projects</a>

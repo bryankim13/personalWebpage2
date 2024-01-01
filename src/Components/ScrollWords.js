@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 
-const words = ['Software Engineer', 'Photographer', 'WeightLifter', 'Gamer'];
+const words = ['Software Engineer 💻', 'Photographer 📷', 'WeightLifter 🏋🏻', 'Gamer 🎮', 'Novice Chess Player ♟️'];
 
 export const ScrollWords = () => {
   const [index, setIndex] = useState(0);
@@ -16,7 +16,7 @@ export const ScrollWords = () => {
 
   return (
     <div style={{ position:'absolute', alignItems:'center', marginTop: '25px'}}>
-      <AnimatePresence mode="wait" initial={false}>
+      <AnimatePresence mode="wait">
         <motion.h1
           className='ScrollWord'
           key={index}

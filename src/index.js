@@ -7,6 +7,7 @@ import "./styles/home.css";
 import "./styles/about.css";
 import "./styles/timeline.css";
 import "./styles/projects.css";
+import "./styles/contactme.css";
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

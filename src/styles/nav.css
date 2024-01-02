@@ -83,7 +83,7 @@ header a {
     font-size: 1rem;
     background: var(--main-baby-blue);
     border-radius: 20px;
-
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 .scrollingNav li {

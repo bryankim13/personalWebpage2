@@ -15,7 +15,7 @@ export const ScrollWords = () => {
   }, []);
 
   return (
-    <div style={{ position:'absolute', alignItems:'center', marginTop: '25px'}}>
+    <div style={{  alignItems:'center', display:'flex', marginTop:'50px',justifyContent: 'center'}}>
       <AnimatePresence mode="wait">
         <motion.h1
           className='ScrollWord'

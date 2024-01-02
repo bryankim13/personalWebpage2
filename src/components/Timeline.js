@@ -12,14 +12,14 @@ export default function Timeline() {
   const imageList = [PerspectaLogo, Noblis, UVA, AppianLogo]
 
   return (
-    <div className='timelineContainer'>
+    <div id='timeline' className='timelineContainer'>
       <h1>My Timeline So Far...</h1>
       {timelineElements.map(element => {
         return <div key={element.id} className='timelineElem'>
           
             <div className='largeScreenIcon'>
               <div className='timelineImage'>
-                <Reveal>
+                <Reveal overflowVal='visible'>
                   <img className='appianLogo' src={imageList[element.id]} alt='Appian logo'/>
                 </Reveal>
               </div>
@@ -29,16 +29,16 @@ export default function Timeline() {
             </div>
             
             <div className='timelineElementContent'>
-            <Reveal>
+            <Reveal overflowVal='visible'>
               <div className='elementTitle'>{element.title}</div>
               </Reveal>
-              <Reveal>
+              <Reveal overflowVal='visible'>
               <div className='elementLocation'>
                 {element.location}{' '}
                 <span className='mobileDate'>| {element.date}</span>
               </div>
               </Reveal>
-              <Reveal>
+              <Reveal overflowVal='visible'>
               <div className='elementDesc'>
                 {element.description}
               </div>

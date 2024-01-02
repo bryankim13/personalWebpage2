@@ -3,13 +3,9 @@ import { ScrollWords } from './ScrollWords.js'
 export default function Home() {
     return <div className='homeContainer' >
         <div className= "homeText">
-            <Reveal>
-                <div className="titleSubheading1">
-                    <h3>Hi,</h3>
-                </div>
-            </Reveal>
-            <Reveal>
+            <Reveal overflowVal='visible'>
                 <div className="titleHeading">
+                    <h3>Hi,</h3>
                     <h1 style={{float: "left"}} className="introName">Bryan</h1>
                     <h4 style={{float: "right"}}>here.</h4>
                 </div>
@@ -21,9 +17,7 @@ export default function Home() {
                 </div>
             </Reveal>
 
-            <ScrollWords>
-                <></>
-            </ScrollWords>
+            <ScrollWords/>
             </div>
     </div>
 }

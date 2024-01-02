@@ -20,7 +20,8 @@ html {
     --main-light-blue: #cbf2f5;
     --main-green: #eef6f2;
     --main-dark-green: #8bcfd3;
-    --main-purple:#fefcec;
+    --main-turq:#ecfefb;
+    --main-purple: #e1a0f7;
 }
 
 
@@ -46,8 +47,12 @@ html {
 
 
 h1 {
-    font-size: 5rem;
+    font-size: 4rem;
     color: var(--main-dark-green);
+    padding:1rem;
+    background-color: var(--main-turq);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 3rem;
 }
 
 h2 {

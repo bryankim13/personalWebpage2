@@ -6,7 +6,7 @@ import {FaGraduationCap, FaBriefcase} from 'react-icons/fa'
 export default function About() {
   return (
     <div id='about' className='aboutSection'>
-        <Reveal>
+        <Reveal overflowVal='visible'>
             <h1>
                 About Me
             </h1>

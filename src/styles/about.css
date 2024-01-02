@@ -8,10 +8,19 @@
     padding-right: 10%;
     justify-content: center;
     background-color: var(--main-blue);
+    text-align:center;
 }
 
 .aboutMessage {
     text-align:left;
+    padding: 2rem;
+    border-radius: 2rem;
+    background-color: var(--main-green);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.aboutMessage p, em {
+    background-color:transparent;
 }
 
 .imageDiv {
@@ -21,6 +30,7 @@
 .aboutImage {
     max-width:100%;
     border-radius: 5rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 .aboutContainer {

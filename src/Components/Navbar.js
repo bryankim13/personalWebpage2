@@ -59,7 +59,7 @@ export default function Navbar() {
                                 <a href="#projects" onClick={props.showNavbar}>Projects</a>
                             </li>
                             <li>
-                                <a href="/contact" onClick={props.showNavbar}>Contact Me</a>
+                                <a href="#contact" onClick={props.showNavbar}>Contact Me</a>
                             </li>
                         </ul>
                         <button className="nav-btn nav-close-btn" onClick={props.showNavbar}>
@@ -93,7 +93,7 @@ export default function Navbar() {
                     <a href="#projects">Projects</a>
                 </li>
                 <li>
-                    <a href="/contact">Contact Me</a>
+                    <a href="#contact">Contact Me</a>
                 </li>
             </ul>
         </motion.div>

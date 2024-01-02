@@ -39,20 +39,20 @@ export default function About() {
                     </Reveal>
                 </div>
                 <div className='aboutMessage'>
-                    <Reveal>
+                    <Reveal overflowVal='visible'>
                     <p>
                         Welcome! I'm the guy who camped over <em>24 hours</em> outside a Microcenter for an 3070 GPU, how are you? While gaming has a huge place in my heart, I love to 
                         experiment with <em>cooking</em>, take artsy <em>photography</em> and am willing to try anything that won't kill me.
                     </p>
                     </Reveal>
-                    <Reveal>
+                    <Reveal overflowVal='visible'>
                     <p>
                         I'm currently a Software Engineer II at <em>Appian</em>, currently building features and doing operational work on their Portal microservice.
                         I also had recently graduated from <em>University of Virginia</em> with a bachelors degree in
                         Computer Science with a <em>3.67</em> GPA. 
                     </p>
                     </Reveal>
-                    <Reveal>
+                    <Reveal overflowVal='visible'>
                     <p>From all the projects and internships I experienced, from failures to successes, I can confidently say that I'm an efficient
                         learner that always strives to produce the best work possible. ヽ(；▽；)ノ
                     </p>

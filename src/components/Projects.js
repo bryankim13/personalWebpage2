@@ -3,10 +3,17 @@ import { motion, AnimatePresence } from 'framer-motion';
 import projectElements from '../assets/projectElements'
 import { FaGithub } from 'react-icons/fa';
 import civicConnect from '../images/civicconnect.jpg'
+import aStar from '../images/aStar.jpg'
+import logic from '../images/logic.jpg'
+import webpagev1 from '../images/webpagev1.jpg'
+import whatsTheMove from '../images/whatsthemove.jpg'
+import ticket from '../images/ticket.jpg'
+import kaclik from '../images/kaclik.jpg'
+
 import { Reveal } from './Reveal'
 
 export default function Projects() {
-  const imageList = [0, 0, 0, 0, 0, civicConnect, 0, 0];
+  const imageList = [logic, aStar, webpagev1, ticket, whatsTheMove, civicConnect, kaclik, 0];
   const [stateArray, setArray] = useState([false, 0]);
   const [booleanValue, IDValue] = stateArray;
 
@@ -51,20 +58,21 @@ export default function Projects() {
                       layout="position"
                     >
                       <div className='project2ndImageDiv'>
-                          <img className='projectImage' src={imageList[element.id]} alt={element.title}/>
+                          <img className='projectImageExpanded' src={imageList[element.id]} alt={element.title}/>
                       </div>
                       <div className='projectExpandedViewText'>
-                        <div>
+                        <div className='projectTitle'>
                           <h3>{element.title}</h3>
                         </div>
                         <div>
                           {element.description}
                         </div>
                         <div className='elementProjectTech'>
-                  {element.tech.map((tech, index) => {
-                    return <span className='eachElementProjectTech' key={index}>{tech}</span>;
-                  })}
-                </div>
+                          {element.tech.map((tech, index) => {
+                            return <span className='eachElementProjectTech' key={index}>{tech}</span>;
+                          })}
+                        </div>
+                        <a href={element.github} className='githubLink' target='_blank' rel='noopener noreferrer'><FaGithub className='githubIcon'/></a>
                       </div>
                     </motion.div>
                   )}

@@ -4,26 +4,23 @@
     justify-content: center;
     min-height:100vh;
     width:100vw;
-    display: flex;
-    text-align: left;
     flex-direction: column;
-}
-
-.introName {
-    font-family: proximanova-medium;
+    text-align: center;
 }
 
 .homeText {
-    padding-left: 20%;
-    padding-right: 20%;
-    padding-bottom:10%;
+    padding:20%;
 }
 
 .titleHeading {
     display:flex;
     justify-content:center;
-    align-items:baseline;
+    align-items:center;
     gap: 1rem;
+}
+
+.titleSubheading2 {
+    text-align: center;
 }
 
 @media only screen and (max-width: 900px){

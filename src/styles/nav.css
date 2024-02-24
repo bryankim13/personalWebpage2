@@ -21,7 +21,7 @@ header .nav-btn {
     outline: none;
     visibility: hidden;
     opacity: 0;
-    font-size: 1.8rem;
+    font-size: 2rem;
     color: var(--main-dark-blue);
 }
 
@@ -46,7 +46,7 @@ header ul {
     list-style: none;
     display: flex;
     gap: 4rem;
-    font-size: 1rem;
+    font-size: 2rem;
 }
 
 header a {
@@ -75,7 +75,7 @@ header a {
 }
 
 .scrollingNav ul {
-    padding: .75rem;
+    padding: 1rem;
     margin: 0;
     list-style: none;
     display: flex;
@@ -95,7 +95,7 @@ header a {
     border-radius: 20px;
     background: var(--main-baby-blue);
     padding: 10px;
-    font-size: 1rem;
+    font-size: 2rem;
 
 }
 

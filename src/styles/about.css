@@ -10,66 +10,41 @@
     background-color: var(--main-blue);
     text-align:center;
 }
-
-.aboutMessage {
-    text-align:left;
-    padding: 2rem;
-    border-radius: 2rem;
-    background-color: var(--main-green);
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-.aboutMessage p, em {
-    background-color:transparent;
-}
-
-.imageDiv {
-    min-width: 300px;
-}
-
-.aboutImage {
-    max-width:100%;
-    border-radius: 5rem;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-}
-
-.aboutContainer {
-    gap: 5%;
-    margin-bottom: 2rem;
-    margin-top: 2rem;
-    display:flex;
-}
-
-.aboutDetails {
-    margin-top:5%;
-    justify-content: center;
-    flex-direction: column;
-}
-
-.aboutDetailContainers {
-    justify-content: center;
-    display: flex;
-    padding-bottom:5%;
-    gap:10px;
-}
-
-.aboutDetailContainer {
-    height:260px;
-    width:360px;
-    padding: 1.5rem;
-    flex: 1;
-    background: var(--main-blue);
-    border-radius: 3rem;
-    border: rgb(53, 53, 53) 0.1rem solid;
-    border-color: var(--main-dark-blue);
-    text-align: center;
-}
-
-.aboutIcon {
-    padding:1rem;
-    font-size: 2rem;
+.aboutHeader {
+    flex-wrap: nowrap;
 }
 
 .aboutSection h1 {
     text-align: center;
+}
+
+.aboutContainers {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+
+}
+.aboutContainer {
+    padding:5%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.aboutImage {
+    width:80%;
+    border-radius: 10rem;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.imageDiv {
+    padding:4rem;
+}
+
+.aboutDesc {
+    display:flexbox;
+    padding:4rem;
+    width:100%;
+    flex-wrap:nowrap;
 }

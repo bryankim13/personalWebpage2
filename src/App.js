@@ -1,10 +1,10 @@
 import './App.css';
 import Home from './components/HomePage.js';
-import Navbar from './components/Navbar.js';
-import About from './components/About.js';
-import Timeline from './components/Timeline.js';
-import Projects from './components/Projects.js';
-import ContactMe from './components/ContactMe.js';
+import Navbar from './components/NavbarComponent.js';
+import About from './components/AboutPage.js';
+import Timeline from './components/TimelinePage.js';
+import Projects from './components/ProjectsPage.js';
+import ContactMe from './components/ContactMePage.js';
 
 function App() {
   return (

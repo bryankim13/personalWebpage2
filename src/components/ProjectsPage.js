@@ -6,6 +6,7 @@ import civicConnect from '../images/civicconnect.jpg'
 import aStar from '../images/aStar.jpg'
 import logic from '../images/logic.jpg'
 import webpagev1 from '../images/webpagev1.jpg'
+import webpagev2 from '../images/webpagev2.png'
 import whatsTheMove from '../images/whatsthemove.jpg'
 import ticket from '../images/ticket.jpg'
 import kaclik from '../images/kaclik.jpg'
@@ -13,7 +14,7 @@ import kaclik from '../images/kaclik.jpg'
 import { Reveal } from './RevealAnimation'
 
 export default function Projects() {
-  const imageList = [logic, aStar, webpagev1, ticket, whatsTheMove, civicConnect, kaclik, 0];
+  const imageList = [logic, aStar, webpagev1, ticket, whatsTheMove, civicConnect, kaclik, webpagev2];
   const [stateArray, setArray] = useState([false, 0]);
   const [booleanValue, IDValue] = stateArray;
 

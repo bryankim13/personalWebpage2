@@ -1,5 +1,5 @@
 import './App.css';
-import Home from './components/Home';
+import Home from './components/HomePage.js';
 import Navbar from './components/Navbar';
 import About from './components/About';
 import Timeline from './components/Timeline';

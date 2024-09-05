@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaInstagram, FaSpotify, FaEnvelope, FaCamera} from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaSpotify, FaEnvelope, FaCamera, FaSteam} from 'react-icons/fa';
 
 export default function ContactMe() {
   return (
@@ -30,6 +30,9 @@ export default function ContactMe() {
           </li>
           <li className = "socList">
             <a href="https://www.instagram.com/bryantakesphot0s/"><FaCamera className='contactCamera'/></a>
+          </li>
+          <li className = "socList">
+            <a href="https://steamcommunity.com/id/byg13173/"><FaSteam className='contactSteam'/></a>
           </li>
         </ul>
     </div>

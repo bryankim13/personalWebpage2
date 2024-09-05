@@ -15,12 +15,25 @@ export default function About() {
 
         <div className='aboutContainers'>
             <div className='aboutContainer'>
+                <Reveal>
                 <div className='imageDiv'>
                     <img className='aboutImage' src={ProfilePic} alt='profileImage'/>
                 </div>
+                </Reveal>
+                <Reveal>
                 <div className='aboutDesc'>
-                    <h2>Here are some pics I've taken</h2>
+                    <p>Regardless if it rains on a photoshoot, or if I'm exhausted during a workout, I strive to
+                        give my 100% and make the most out of the situation. Thats the mindset I carry with me
+                        wherever I go.
+                    </p>
+                    <br></br>
+                    <p>
+                        Im a <b>Software Engineer</b> that has worked with <b>Monolithic codebases</b>, <b>microservices</b>, <b>REST api's</b> and more.
+                        I value communcation just as much as being able to deliever complex solutions. Regardless
+                        of the technologies in play, I learn to adapt to bring the best results.
+                    </p>
                 </div>
+                </Reveal>
             </div>
         </div>
     </div>

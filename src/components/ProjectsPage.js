@@ -10,7 +10,7 @@ import whatsTheMove from '../images/whatsthemove.jpg'
 import ticket from '../images/ticket.jpg'
 import kaclik from '../images/kaclik.jpg'
 
-import { Reveal } from './Reveal'
+import { Reveal } from './RevealAnimation'
 
 export default function Projects() {
   const imageList = [logic, aStar, webpagev1, ticket, whatsTheMove, civicConnect, kaclik, 0];

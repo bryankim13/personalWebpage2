@@ -1,5 +1,5 @@
-import { Reveal } from './Reveal.js'
-import { ScrollWords } from './ScrollWords.js'
+import { Reveal } from './RevealAnimation.js'
+import { ScrollWords } from './ScrollWordsAnimation.js'
 export default function Home() {
     return <div className='homeContainer' >
         <div className= "homeText">

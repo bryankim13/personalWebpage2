@@ -1,5 +1,5 @@
 import React from 'react'
-import { Reveal } from './Reveal.js'
+import { Reveal } from './RevealAnimation.js'
 import ProfilePic from '../images/about.jpg'
 
 export default function About() {

@@ -53,7 +53,7 @@ h1 {
     padding:1rem;
     background-color: var(--main-turq);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    border-radius: 3rem;
+    border-radius: 1rem;
 }
 
 h2 {

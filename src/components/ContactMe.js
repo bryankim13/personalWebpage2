@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaGithub, FaLinkedin, FaInstagram, FaSpotify} from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaInstagram, FaSpotify, FaEnvelope, FaCamera} from 'react-icons/fa';
 
 export default function ContactMe() {
   return (
@@ -9,9 +9,12 @@ export default function ContactMe() {
         </div>
         <div className='contactMeText'>
           <p>
-            Send me an email (bryankim13173@gmail.com) or find me at your favorite app below 
+            <a href="mailto:bryankim13173@gmail.com"><FaEnvelope/></a>Email: Bryankim13173@gmail.com
           </p>
         </div>
+        <div className='text'>
+          <p>Or find me at your favorite app below:</p>
+          </div>
         <ul className = "socials">
           <li className = "socList">
             <a href="https://github.com/bryankim13"><FaGithub className='contactGithub'/></a>
@@ -24,6 +27,9 @@ export default function ContactMe() {
           </li>
           <li className = "socList">
             <a href="https://open.spotify.com/user/12166100041?si=3527a4ed349245da"><FaSpotify className='contactSpotify'/></a>
+          </li>
+          <li className = "socList">
+            <a href="https://www.instagram.com/bryantakesphot0s/"><FaCamera className='contactCamera'/></a>
           </li>
         </ul>
     </div>

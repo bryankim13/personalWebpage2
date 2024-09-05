@@ -22,22 +22,6 @@ export default function About() {
                     <h2>Here are some pics I've taken</h2>
                 </div>
             </div>
-            <div className='aboutContainer'>
-                <div className='imageDiv'>
-                    <img className='aboutImage' src={ProfilePic} alt='profileImage'/>
-                </div>
-                <div className='aboutDesc'>
-                    <h2>Here are some pics I've taken</h2>
-                </div>
-            </div>
-            <div className='aboutContainer'>
-                <div className='imageDiv'>
-                    <img className='aboutImage' src={ProfilePic} alt='profileImage'/>
-                </div>
-                <div className='aboutDesc'>
-                    <h2>Here are some pics I've taken</h2>
-                </div>
-            </div>
         </div>
     </div>
   )

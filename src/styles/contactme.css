@@ -4,6 +4,37 @@
     width:100vw;
     align-items: center;
     flex-direction: column;
-    padding:15vw;
+    padding:10vw;
     justify-content: center;
+}
+
+.contactMeText {
+    padding: 10rem;
+}
+
+.contactMeHeading {
+    border-color: transparent;
+}
+
+.socials {
+    list-style-type: none; 
+    min-height:100%;
+    width:100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.socials li {
+    display: inline-block;
+    padding: 5%;
+   
+}
+
+.socials a {
+    font-size: 4rem;
+}
+
+.socials a :hover {
+    color:var(--main-white);
 }
